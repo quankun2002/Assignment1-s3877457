@@ -34,12 +34,12 @@ struct MapView: View {
                     Text("pin")
                         .fixedSize()
                 }.padding(10)
-                    .background(Color.white).foregroundColor(.black)
+                    .background(Color(.systemGray)).foregroundColor(Color(.white))
                     .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
                     .overlay(
                         Image(systemName: "arrowtriangle.left.fill")
                             .rotationEffect(Angle(degrees: 270))
-                            .foregroundColor(.white)
+                            .foregroundColor(Color(.systemGray))
                             .offset(y: 10)
                         
                         , alignment: .bottom)

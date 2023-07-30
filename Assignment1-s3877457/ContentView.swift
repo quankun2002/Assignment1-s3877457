@@ -67,7 +67,7 @@ struct ContentView: View {
                         
                     }
                     .alert(isPresented: $showingAlert) {
-                        Alert(title: Text("Le Anh Quan"), message: Text("s3877457, Software engineer From RMIT"), dismissButton: .default(Text("OK!")))
+                        Alert(title: Text("Le Anh Quan"), message: Text("s3877457, Software engineer From COSC2659 iOS Development"), dismissButton: .default(Text("OK!")))
                     }
                 }
                 

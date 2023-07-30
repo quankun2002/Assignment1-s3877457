@@ -7,7 +7,7 @@
  ID: 3877457
  Created  date: dd/mm/yyyy (e.g. 31/07/2023)
  Last modified: dd/mm/yyyy (e.g. 05/08/2023)
- Acknowledgement: Acknowledge the resources that you use here.
+ Acknowledgement:Wikipedia article for all the historical figures
  */
 
 import SwiftUI
